@@ -12,7 +12,7 @@ const TeamTable = ({ data, setFilter }) => {
     )
   }
 
-  const options = useSelector(state => state.app['conferences'].map(c => { return {value: c.name, label: c.name} }));
+  const options = useSelector(state => [{value: "", label: "All"}].concat(state.app['conferences'].map(c => { return {value: c.name, label: c.name} })));
 
   const handleChange = (e) => {
     setFilter({ conference:  e.value });
