@@ -13,7 +13,7 @@ import ConferencesPage from './components/ConferencesPage';
 function App() {
   return (
     <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/college-football">
       <Container className="p-3">
       <div className="row">
         <div className="col-md-4">
