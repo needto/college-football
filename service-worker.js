@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/college-football/precache-manifest.7a9ca08d75f33b3d61728dea3ece5cb4.js"
+  "/college-football/precache-manifest.9bc7c93ff570d968be89d409970e753e.js"
 );
 
 self.addEventListener('message', (event) => {
